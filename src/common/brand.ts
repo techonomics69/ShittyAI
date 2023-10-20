@@ -21,9 +21,9 @@ export const Brand = {
     Home: 'https://shittyai.com',
     // App: 'https://get.big-agi.com',
     CardImage: 'https://big-agi.com/icons/card-dark-1200.png',
-    OpenRepo: 'https://github.com/enricoros/big-agi',
+    OpenRepo: 'https://github.com/shittyai',
     SupportInvite: 'https://discord.gg/zKpRdny5',
-    // Twitter: 'https://www.twitter.com/enricoros',
+    // Twitter: 'https://www.twitter.com/enricoros'
     PrivacyPolicy: 'https://shittyai.com/privacy',
   },
 };

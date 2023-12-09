@@ -39,6 +39,15 @@ function MyApp({ Component, emotionCache = clientSideEmotionCache, pageProps }: 
         <title>{Brand.Title.Common}</title>
         <meta name='viewport' content='minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no' />
       </Head>
+      <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BGPNBJK74K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BGPNBJK74K');
+</script>
       {/* Rect-query provider */}
       <QueryClientProvider client={queryClient}>
         <CssVarsProvider defaultMode='light' theme={theme}>

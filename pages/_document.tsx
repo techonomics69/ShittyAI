@@ -18,6 +18,15 @@ export default function MyDocument({ emotionStyleTags }: MyDocumentProps) {
   return (
     <Html lang='en' className={bodyFontClassName}>
       <Head>
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BGPNBJK74K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BGPNBJK74K');
+</script>
         {/* Meta (missing Title, set by the App or Page) */}
         <meta name='description' content={Brand.Meta.Description} />
         <meta name='theme-color' content={Brand.Meta.ThemeColor} />
